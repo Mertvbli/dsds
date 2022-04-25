@@ -48,7 +48,8 @@ connection.execute("""INSERT INTO tracks VALUES
     (12, 'Hand on the Glock', 33300, 7),
     (13, 'Alice Practice', 24400, 8),
     (14, 'Air War', 34400, 8),
-    (15, 'Love and Carring', 21900, 8);
+    (15, 'Love and Carring', 21900, 8),
+    (16, 'Juggernauts', 44400, 1);
 """)
 
 connection.execute("""INSERT INTO collection VALUES
@@ -71,7 +72,8 @@ connection.execute("""INSERT INTO artists_genres VALUES
     (5, 2),
     (6, 1),
     (7, 5),
-    (8, 3);
+    (8, 3),
+    (1, 2);
 """)
 
 connection.execute("""INSERT INTO artists_albums VALUES
